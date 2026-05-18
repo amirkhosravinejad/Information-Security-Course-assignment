@@ -1,0 +1,163 @@
+# Nmap 7.99 scan initiated Sun May  3 17:22:34 2026 as: /usr/lib/nmap/nmap -sS -p- -T4 -oN fullportscan.txt 10.10.16.0/24
+Nmap scan report for 10.10.16.1
+Host is up (0.027s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+2222/tcp open  EtherNetIP-1
+5000/tcp open  upnp
+9000/tcp open  cslistener
+
+Nmap scan report for 10.10.16.9
+Host is up (0.028s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 10.10.16.36
+Host is up (0.027s latency).
+Not shown: 63397 closed tcp ports (reset), 2137 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.47
+Host is up (0.029s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.16.54
+Host is up (0.032s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.55
+Host is up (0.025s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.16.65
+Host is up (0.028s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.77
+Host is up (0.030s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.16.82
+Host is up (0.037s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+10100/tcp open  itap-ddtp
+
+Nmap scan report for 10.10.16.87
+Host is up (0.033s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.16.89
+Host is up (0.025s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+9090/tcp open  zeus-admin
+
+Nmap scan report for 10.10.16.90
+Host is up (0.032s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap scan report for 10.10.16.99
+Host is up (0.037s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.101
+Host is up (0.032s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.102
+Host is up (0.039s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.147
+Host is up (0.034s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.154
+Host is up (0.035s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.203
+Host is up (0.030s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.237
+Host is up (0.030s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.239
+Host is up (0.036s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.240
+Host is up (0.030s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.241
+Host is up (0.030s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.242
+Host is up (0.031s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 10.10.16.246
+Host is up (0.031s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+1337/tcp open  waste
+
+# Nmap done at Sun May  3 17:40:36 2026 -- 256 IP addresses (24 hosts up) scanned in 1081.67 seconds
